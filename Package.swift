@@ -25,10 +25,9 @@ let package = Package(
             name: "Segment",
             dependencies: [],
             path: "Segment/",
-            sources: ["Classes", "Internal"],
+            sources: ["Classes"],
             publicHeadersPath: "Classes",
             cSettings: [
-                .headerSearchPath("Internal"),
                 .headerSearchPath("Classes")
             ]
         )
