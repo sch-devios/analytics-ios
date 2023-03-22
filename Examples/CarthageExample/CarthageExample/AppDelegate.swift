@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Analytics
+import Segment
 
 // https://segment.com/segment-mobile/sources/ios_carthage_example/overview
 // Use your own writekey people :)

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41DD2ED929CB048C0063F751 /* Segment in Frameworks */ = {isa = PBXBuildFile; productRef = 41DD2ED829CB048C0063F751 /* Segment */; };
 		9616DB59249050A600F7191B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616DB58249050A600F7191B /* SignupViewController.swift */; };
 		9616DB5B2490583800F7191B /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616DB5A2490583800F7191B /* InviteViewController.swift */; };
-		961C617024BE5BED00A8B8E3 /* Analytics in Frameworks */ = {isa = PBXBuildFile; productRef = 961C616F24BE5BED00A8B8E3 /* Analytics */; };
 		961D80C024902143007C4F04 /* AnonymousViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961D80BC24902143007C4F04 /* AnonymousViewController.swift */; };
 		96BC0E4A24A57317000AF2EB /* SignoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC0E4924A57317000AF2EB /* SignoutViewController.swift */; };
 		96BC0E4C24A693E3000AF2EB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC0E4B24A693E3000AF2EB /* SignInViewController.swift */; };
@@ -38,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41E400BF29CB041B0018BF0C /* analytics-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "analytics-ios"; path = ../..; sourceTree = "<group>"; };
 		9616DB58249050A600F7191B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		9616DB5A2490583800F7191B /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
 		961D80BC24902143007C4F04 /* AnonymousViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnonymousViewController.swift; sourceTree = "<group>"; };
@@ -61,16 +62,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961C617024BE5BED00A8B8E3 /* Analytics in Frameworks */,
+				41DD2ED929CB048C0063F751 /* Segment in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E400BD29CB03B90018BF0C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				41E400BF29CB041B0018BF0C /* analytics-ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		96D044122485B458009C3FD7 = {
 			isa = PBXGroup;
 			children = (
+				41E400BD29CB03B90018BF0C /* Packages */,
 				96D0441D2485B458009C3FD7 /* Analytics Example */,
 				96D0441C2485B458009C3FD7 /* Products */,
 				96D0443F2485B541009C3FD7 /* Frameworks */,
@@ -140,7 +150,7 @@
 			);
 			name = "Analytics Example";
 			packageProductDependencies = (
-				961C616F24BE5BED00A8B8E3 /* Analytics */,
+				41DD2ED829CB048C0063F751 /* Segment */,
 			);
 			productName = "Analytics Example";
 			productReference = 96D0441B2485B458009C3FD7 /* Analytics Example.app */;
@@ -171,7 +181,6 @@
 			);
 			mainGroup = 96D044122485B458009C3FD7;
 			packageReferences = (
-				961C616E24BE5BED00A8B8E3 /* XCRemoteSwiftPackageReference "analytics-ios" */,
 			);
 			productRefGroup = 96D0441C2485B458009C3FD7 /* Products */;
 			projectDirPath = "";
@@ -421,22 +430,10 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		961C616E24BE5BED00A8B8E3 /* XCRemoteSwiftPackageReference "analytics-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/segmentio/analytics-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		961C616F24BE5BED00A8B8E3 /* Analytics */ = {
+		41DD2ED829CB048C0063F751 /* Segment */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 961C616E24BE5BED00A8B8E3 /* XCRemoteSwiftPackageReference "analytics-ios" */;
-			productName = Analytics;
+			productName = Segment;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

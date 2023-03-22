@@ -10,7 +10,7 @@
 
 /*
 import Nocilla
-import Analytics
+import Segment
 import XCTest
 
 class HTTPClientTest: XCTestCase {
