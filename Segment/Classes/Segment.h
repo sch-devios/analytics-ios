@@ -28,3 +28,8 @@ FOUNDATION_EXPORT const unsigned char SegmentVersionString[];
 #import "SEGState.h"
 #import "SEGIntegrationsManager.h"
 #import "SEGMCVIDTracker.h"
+#import "NSData+SEGGZIP.h"
+#import "NSViewController+SEGScreen.h"
+#import "SEGUserDefaultsStorage.h"
+#import "SEGStoreKitTracker.h"
+#import "SEGAES256Crypto.h"
