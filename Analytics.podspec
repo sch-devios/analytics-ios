@@ -9,11 +9,10 @@ Pod::Spec.new do |s|
                        integrate with over 100s of tools.
                        DESC
 
-  s.homepage         = "http://segment.com/"
+  s.homepage         = "http://adevinta.com/"
   s.license          =  { :type => 'MIT' }
-  s.author           = { "Segment" => "friends@segment.com" }
+  s.author           = { "Adevinta Spain iOS Platform" => "miquel.alvarado@adevinta.com" }
   s.source           = { :git => "https://github.com/sch-devios/analytics-ios.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/segment'
 
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.13'
