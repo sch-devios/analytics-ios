@@ -12,11 +12,10 @@ Pod::Spec.new do |s|
   s.homepage         = "http://segment.com/"
   s.license          =  { :type => 'MIT' }
   s.author           = { "Segment" => "friends@segment.com" }
-  s.source           = { :git => "https://github.com/segmentio/analytics-ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/sch-devios/analytics-ios.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/segment'
 
   s.ios.deployment_target = '10.0'
-  s.tvos.deployment_target = '10.0'
   s.osx.deployment_target = '10.13'
 
   s.source_files = [
