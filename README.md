@@ -58,14 +58,7 @@ If you are part of a new startup  (&lt;$5M raised, &lt;2 years since founding), 
 
 ## Installation
 
-Analytics is available through [CocoaPods](http://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage).
-
-### CocoaPods
-
-```ruby
-pod "Analytics", "3.7.0"
-```
-Note: Segment _strongly_ recommends that you use a dynamic framework to manage your project dependencies. If you prefer static libraries, you can add `use_modular_headers!` or `use_frameworks! :linkage => :static` in your Podfile. However, you must then _manually update_ all of your dependencies on a regular schedule.
+Analytics is available through [Carthage](https://github.com/Carthage/Carthage) and SPM.
 
 ### Carthage
 
